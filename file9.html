@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>iframe & embed & object</title>
+</head>
+<body>
+
+  <h2>1. YouTube Video using <i>iframe</i></h2>
+  <iframe width="300" height="180" 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    frameborder="0" allowfullscreen>
+  </iframe>
+
+  <h2>2. PDF using <i>embed</i> </h2>
+  <embed src="sample.pdf" width="300" height="200" type="application/pdf">
+
+  <h2>3. PDF using <i>object</i>  with fallback</h2>
+  <object data="sample.pdf" type="application/pdf" width="300" height="200">
+    <p>PDF not supported. <a href="sample.pdf">Click here to download</a></p>
+  </object>
+
+</body>
+</html>
